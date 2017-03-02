@@ -1,0 +1,53 @@
+body{font-family: "微软雅黑";}
+.ui-task__bg{
+	/*position: relative;*/
+	background-color:  #0e0e0e;
+	width:100%;
+	height: 100%;
+}
+.ui-task__wrap{
+	/*position: absolute;*/
+	background-color: #D0D0D0;
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.ui-task__nav{
+	width: 100%;
+	height: 60px;
+	background-color: #3c3c3c;
+}
+.ui-task__navTitle{
+	float: right;
+}
+.ui-task__navTitle li{
+	float: left;
+	margin-right: 24px;
+	width: 90px;
+}
+.ui-task__navTitle li a{
+	color: #fff;
+	font-size: 14px;
+}
+article,section{
+	margin:24px;
+	background-color: #fff;
+	padding: 24px;
+}
+article h1{font-size: 24px;color: #333;}
+article h2{font-size: 18px;color:#666;}
+article h3{font-size: 14px;color: #999;}
+.ui-task__wrap article:first-child p{text-indent: 2em;}
+figure{width: 230px;border:1px solid darkgray;padding:24px;}
+figure figcaption{text-align: center;padding-bottom:24px;}
+figure img{margin:0 auto;}
+.ui-task__text{color:#000;font-size: 14px;}
+table tr th,table tr td{border:1px solid #D0D0D0}
+table tr th{background:#3C3C3C;color: #fff;font-size: 12px;padding:8px;text-align: left;}
+table tr td{padding: 8px;font-size: 12px;}
+table tr td:nth-child(3){color:#ff79bc;text-decoration: underline;}
+table tr:last-child{font-weight: bold;color:#000000}
+.ui-task__ban{margin-left: 250px;font-size: 14px;    padding: 0 24px;}
+label{padding-right: 20px;text-align: right;}
+.ui-task__foot{color: #fff;background-color:#272727;width: 1200px;height: 40px;margin:0 auto;padding-top:0}
+.ui-task__but{background-color: blue;color: #fff;width:1100px;height: 40px;border-radius: 10px;}
